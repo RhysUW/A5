@@ -20,3 +20,6 @@ class Note():
 	def __repr__(self):
 		''' converts the note object to a string representation for debugging '''
 		return "Note(%r, %r, %r)" % (self.code, self.timestamp, self.text)
+	
+	def getCode(self):
+		return self.code

@@ -57,3 +57,21 @@ class Patient():
 	def list_notes(self):
 		''' delegates note listing to the patient's record '''
 		return self.record.list_notes()
+	
+	def getName(self):
+		return self.name
+	
+	def getPhn(self):
+		return self.phn
+	
+	def getPhone(self):
+		return self.phone
+	
+	def getBirthDay(self):
+		return self.birth_date
+	
+	def getEmail(self):
+		return self.email
+	
+	def getAddress(self):
+		return self.address
